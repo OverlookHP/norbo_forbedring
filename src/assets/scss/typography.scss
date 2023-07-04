@@ -1,0 +1,60 @@
+@import "./colors.scss";
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("~@/assets/fonts/Ubuntu-Bold.ttf") format("ttf"),
+    url("~@/assets/fonts/Ubuntu-BoldItalic.ttf") format("ttf"),
+    url("~@/assets/fonts/Ubuntu-Italic.ttf") format("ttf"),
+    url("~@/assets/fonts/Ubuntu-Light.ttf") format("ttf"),
+    url("~@/assets/fonts/Ubuntu-LightItalic.ttf") format("ttf"),
+    url("~@/assets/fonts/Ubuntu-LightItalic.ttf") format("ttf"),
+
+    
+    
+    ;
+  }
+
+h1 h2 h3 p span {
+    font-family: 'Ubuntu', sans-serif;
+    color: $Midnight-Green;
+    src: url('../fonts/Ubuntu-Regular.ttf/');
+}
+
+h1 {
+
+    font-size: 50px;
+    color: $Midnight-Green;
+    src: url('../fonts/Ubuntu-bold.ttf/');
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 18px;
+    color: $Midnight-Green;
+    src: url('../fonts/Ubuntu-bold.ttf/');
+    font-weight: bold;
+}
+
+p {
+    margin-top: 16px;
+}
+
+select {
+    max-width: 224px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 54px;
+    font-size: 16px;
+}
+
+.text-font {
+    font-family: 'Ubuntu', sans-serif;
+    color: $Midnight-Green;
+}
