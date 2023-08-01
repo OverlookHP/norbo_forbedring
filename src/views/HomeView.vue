@@ -1,84 +1,24 @@
 <script setup>
 import Information from '../components/Information.vue';
-import Robots from '../components/Robots.vue';
 import Automation from '../components/Automation.vue';
 import Surfaces from '../components/Surfaces.vue';
+import Informationview from './Informationview.vue';
+
+
+
  
 </script>
 
 <template>
   <main>
-    <h1>home</h1>
     
   
+  <Informationview> </Informationview>
   
-  <div class="stepper">
-    <div class="stepContainer container">
-  <!-- completed -->
-    <div class="step completed">
-      <div class="v-stepper">
-        <div class="circle"></div>
-        <div class="line" ><img class="lineImg" src="..\assets\img\stepline.webp"></div>
-      </div>
 
-      <div class="content">
-      </div>
-  </div>
+
   
-  <!-- active -->
-  <div class="step active">
-    <div class="v-stepper">
-      <div class="circle"></div>
-      <div class="line" ><img class="lineImg" src="\src\assets\img\stepline2.webp"></div>
-    </div>
-
-    <div class="content">
-    </div>
-  </div>
-
-  <!-- active -->
-  <div class="step active">
-    <div class="v-stepper">
-      <div class="circle"></div>
-      <div class="line"></div>
-    </div>
-
-    <div class="content">
-    </div>
-  </div>
-
-  <!-- active -->
-  <div class="step active">
-    <div class="v-stepper">
-      <div class="circle"></div>
-      <div class="line"></div>
-    </div>
-
-    <div class="content">
-    </div>
-  </div>
   
-  <!-- regular -->
-  <div class="step">
-      <div class="v-stepper">
-        <div class="circle"></div>
-        <div class="line"></div>
-      </div>
-
-      <div class="content">
-      </div>
-  </div>
-  
-</div>
-  </div>
-  
-  <Information> </Information>
-
-  <Robots> </Robots>
-
-  <Automation> </Automation>
-
-  <Surfaces> </Surfaces>
 </main>
 
 </template>

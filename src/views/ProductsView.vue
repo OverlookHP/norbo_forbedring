@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '@/firebase';
+im
 
 const products = ref([
 /*  
@@ -55,6 +56,9 @@ onMounted(async () => {
 <template>
   
     <h1>Products</h1>
+
+
+    
 
     
  

@@ -1,9 +1,16 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router';
+import productshow from '../components/productshow.vue';
+</script>
+
 <template>
   
-    <h1>Sales</h1>
- 
+<productshow> </productshow>
+
+  
+    
 </template>
 
-<style>
+<style scoped>
 
 </style>

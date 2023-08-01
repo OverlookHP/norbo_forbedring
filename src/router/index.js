@@ -40,6 +40,38 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/SalesView.vue')
+    },
+    {
+      path: '/Information',
+      name: 'Information',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Informationview.vue')
+    },
+    {    
+      path: '/Robots',
+      name: 'Robots',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Robotsview.vue')
+    },
+    {
+      path: '/Automation',
+      name: 'Automation',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Automationview.vue')
+    },
+    {
+      path: '/Surfaces',
+      name: 'Surfaces',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/Surfacesview.vue')
     }
     
   ]

@@ -3,7 +3,7 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a style="width:312px; height:128px;" class="navbar-item" href="https://bulma.io">
+    <a style="width:312px; height:128px;" class="navbar-item" href="/">
       <img style="width:312px; max-height:128rem; height:128px;" src="\src\assets\img\nordbo-logo.webp">
     </a>
 
