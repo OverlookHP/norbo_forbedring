@@ -15,6 +15,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NORDBO_TB_2 }}'
+          firebaseServiceAccount: '${{ 9e695352b6028f05561035e49912924843938910 }}'
           channelId: live
           projectId: nordbo-tb-2
