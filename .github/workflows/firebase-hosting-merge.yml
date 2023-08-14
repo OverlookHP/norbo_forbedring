@@ -14,7 +14,7 @@ jobs:
       - run: (npm ci && npm run build)
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NORDBO_TB_2 }}'
+          repoToken: '${{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}}'
+          firebaseServiceAccount: '${{AIzaSyBEoZoOvnyIN74VUW9_59VgMRaO0BgTfho}}'
           channelId: live
           projectId: nordbo-tb-2
