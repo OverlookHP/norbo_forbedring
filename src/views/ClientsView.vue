@@ -41,11 +41,11 @@ const companysID = ref({
 })
 const fbCompaniesID = []
 
-
+//koden bliver først kaldt når den er blevet mounted på DOM
 onMounted(async () => {
     const querySnapshot = await getDocs(collection(db, "companies"))
     let fbCompanies = []
-    
+    //Gør igennem hvert "doc" i databasen og opretter et opject for hvert company
     querySnapshot.forEach((doc) => {
   // doc.data() is never undefined for query doc snapshots
   console.log(doc.id, " => ", doc.data());
